@@ -130,10 +130,10 @@
     <div>
         <div class="container-fluid order" id="make-order">
             <div class="order-overlay">
-              <div class="controls-top text-center" id="Order-now"> 
+              <div class=" text-center" id="Order-now"> 
                 <h2>Order Here</h2>
               </div>
-              <h2>Order your pizza here and we will deliver it to you at your door step!</h2>
+                <h2 class="text-center">Order your pizza here and we will deliver it to you at your door step!</h2>
               <div class="row">
                   <div class="col-sm-5">
                     <form action="">
@@ -152,6 +152,13 @@
                                 <option value="large">Large -- sh. 1200</option>
                                 <option value="medium">Medium -- sh. 850</option>
                                 <option value="small">Small -- sh. 600</option>
+                            </select>
+                        <label for="crust">Choose your favorite Crust!</label>
+                            <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+                                <option selected value="0">Select your preferred crust!</option>
+                              <option value="Crispy">Crispy -- sh. 200</option>
+                              <option value="Stuffed">Stuffed -- sh. 150</option>
+                              <option value="Gluten-free">Gluten-free-- sh. 180</option>
                             </select>
                           
                     </form>                      
