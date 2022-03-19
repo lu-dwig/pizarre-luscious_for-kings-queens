@@ -88,4 +88,12 @@ span{
 .card{
   width: 450px;
 }
+.order-us{
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  padding: 40px;
+  color: aquamarine;
+}
 

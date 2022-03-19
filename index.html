@@ -127,7 +127,7 @@
             </div>   
         </div>
     </div>
-    <div class="container-fluid order" id="make-order">
+    <div class="order-us" id="make-order" style="background-image: url(images/21-pizza.gif);">
         <div class="order-overlay">
             <div class=" text-center" id="Order-now"> 
               <h2>Order Here</h2>
@@ -159,7 +159,7 @@
                                 <option value="Stuffed">Stuffed -- sh. 200</option>
                                 <option value="cripsy">Cripsy-- sh. 250</option>
                             </select>
-                            <label for="Toppings">Select Your Toppings at sh. 50 each</label><br>
+                            <label for="Toppings">Select Your Toppings at sh. 100 each</label><br>
                                 <div class="custom-control custom-checkbox custom-control-inline">
                                   <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
                                   <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
@@ -186,6 +186,38 @@
                         <p>Ensure you have the total amout for the order during order delivery .</p>
                         <p>Incase of any comment of complaint, Please reach out to us as fast as possible. You can get thee contact information on our contact us page</p>
                         <p id="regards">Regards, Management</p>
+                    </div>
+                    <div class="choise">
+                        <h2>Your Order:</h2>
+                        <div id="your-orders">
+                            <table class="table table-sm  pizzatable">
+                              <thead style="color:chartreuse;">
+                                <tr>
+                                  <th scope="col">Name</th>
+                                  <th scope="col">Size</th>
+                                  <th scope="col">Crust</th>
+                                  <th scope="col">Topping</th>
+                                  <th scope="col">Total</th>
+                                </tr>
+                              </thead>
+                              <tbody id="ordersmade" style="color: fuchsia;">
+                                <tr>
+                                  <td id="pizzaname"></td>
+                                  <td id="pizzasize"></td>
+                                  <td id="pizzacrust"></td>
+                                  <td id="pizzatopping"></td>
+                                  <td id="totals"></td>
+                                </tr>                  
+                              </tbody>
+                            </table>
+                            <p id="pizzatotal"></p>
+                            <p id="totalbill"></p> 
+                            <p id="addedprice">Delivery will cost sh. 250</p>
+                            <p id="finallmessage"></p>
+                        </div>
+                        <button class="btn  addPizza">Add Pizza</button>
+                        <button class="btn" id="checkout">Checkout</button>
+                        <button class="btn deliver">Home delivery?</button>
                     </div>
                 </div>         
             </div> 
