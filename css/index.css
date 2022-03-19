@@ -78,3 +78,14 @@ span{
   text-align: justify;
   overflow-x: hidden;
 }
+.variety{
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+.card{
+  width: 450px;
+}
+
