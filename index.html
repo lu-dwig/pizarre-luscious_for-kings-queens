@@ -127,15 +127,14 @@
             </div>   
         </div>
     </div>
-    <div>
-        <div class="container-fluid order" id="make-order">
-            <div class="order-overlay">
-              <div class=" text-center" id="Order-now"> 
-                <h2>Order Here</h2>
-              </div>
-                <h2 class="text-center">Order your pizza here and we will deliver it to you at your door step!</h2>
-              <div class="row">
-                  <div class="col-sm-5">
+    <div class="container-fluid order" id="make-order">
+        <div class="order-overlay">
+            <div class=" text-center" id="Order-now"> 
+              <h2>Order Here</h2>
+            </div>
+            <h2 class="text-center">Order your pizza here and we will deliver it to you at your door step!</h2>
+            <div class="row">
+                <div class="col-sm-5">
                     <form action="">
                         <label for="select">Select Your Flavor</label>
                             <select class="browser-default custom-select custom-select-md mb-3 name">
@@ -149,44 +148,50 @@
                         <label for="select">Select Size</label>
                             <select class="browser-default custom-select custom-select-md mb-3" id="size">
                                 <option selected value="0">Select size here</option>
-                                <option value="large">Large -- sh. 1200</option>
+                                <option value="small">small -- sh. 600</option>
                                 <option value="medium">Medium -- sh. 850</option>
-                                <option value="small">Small -- sh. 600</option>
+                                <option value="large">large -- sh. 1300</option>
                             </select>
                         <label for="crust">Choose your favorite Crust!</label>
                             <select class="browser-default custom-select custom-select-md mb-3" id="crust">
                                 <option selected value="0">Select your preferred crust!</option>
-                              <option value="Crispy">Crispy -- sh. 200</option>
-                              <option value="Stuffed">Stuffed -- sh. 150</option>
-                              <option value="Gluten-free">Gluten-free-- sh. 180</option>
+                                <option value="glutten-free">Glutten-free -- sh. 150</option>
+                                <option value="Stuffed">Stuffed -- sh. 200</option>
+                                <option value="cripsy">Cripsy-- sh. 250</option>
                             </select>
                             <label for="Toppings">Select Your Toppings at sh. 50 each</label><br>
                                 <div class="custom-control custom-checkbox custom-control-inline">
-                                  <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
-                                  <label class="custom-control-label" for="Sausage">Sausage</label>
+                                  <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
+                                  <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
                                 </div>
                                 <div class="custom-control custom-checkbox custom-control-inline">
                                   <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
                                   <label class="custom-control-label" for="Bacon">Bacon</label>
                                 </div>
                                 <div class="custom-control custom-checkbox custom-control-inline">
-                                  <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
-                                  <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
+                                  <input type="checkbox" class="custom-control-input" id="Pineapples" value="Pineapples" name="toppings">
+                                  <label class="custom-control-label" for="Pineapples">Pineapples</label>
+                                </div>
+                                <div class="custom-control custom-checkbox custom-control-inline">
+                                  <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
+                                  <label class="custom-control-label" for="Sausage">Sausage</label>
                                 </div>
                                 <br><br>
                             <button type="submit" class="btn btn-orange proceed">Proceed</button>  
-                        </form>
-                      </div>
-                      <div class="col-sm-7">
-                            <div id="information">
-                              <p>Your order will be processed and delivered within one hour of placing.</p>
-                              <p>Make sure you have the total amout for the order during order delivery delivery.</p>
-                              <p>Incase of any comment of complaint, Please reach out to us as fast as possible.</p>
-                              <p id="regards">Regards, Management</p>
-                            </div>
-                            
-              </div> 
-        </div>    
-                    </form>                      
+                    </form>
+                </div>
+                <div class="col-sm-7">
+                    <div id="information">
+                        <p>Your order will be processed and delivered within one hour of placing the order.</p>
+                        <p>Ensure you have the total amout for the order during order delivery .</p>
+                        <p>Incase of any comment of complaint, Please reach out to us as fast as possible. You can get thee contact information on our contact us page</p>
+                        <p id="regards">Regards, Management</p>
+                    </div>
+                </div>         
+            </div> 
+        </div> 
+    </div>   
+                    </form> 
+
 </body>
 </html>
