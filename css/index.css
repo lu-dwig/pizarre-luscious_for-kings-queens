@@ -51,6 +51,30 @@ span{
     transform: translateY(-20px);
   }
 }
-.about-us{
-  height: 80vh;
+#about-us{
+  min-height: 70vh;
+  align-items: center;
+  padding: 50px;
+  
+
+}
+.about{
+  display: flex;
+  flex-direction: row;
+}
+.about-pic {
+  background-color: #ffa500;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+}
+#about-us .content{
+  padding: 65px 50px 85px;
+  width: 100%;
+  padding: 4.36cm;
+  background-color: grey;
+  float:right;
+  text-align: justify;
+  overflow-x: hidden;
 }
