@@ -51,3 +51,6 @@ span{
     transform: translateY(-20px);
   }
 }
+.about-us{
+  height: 80vh;
+}
