@@ -96,4 +96,32 @@ span{
   padding: 40px;
   color: aquamarine;
 }
+.lay-order{
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  padding-left: 6%;
+}
+.pin-order{
+  display: none;
+  padding-left: auto;
+  padding-right: auto;
+}
+.delivery{
+  display: none;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+td,th{
+  font-size: 20px;
+  color: white;
+}
+.choise h2{
+  color:orange;
+  text-align: left;
+}
+#your-orders{
+  color: white;
+  font-size: 30px;
+}
 
