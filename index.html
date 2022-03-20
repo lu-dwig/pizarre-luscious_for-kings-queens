@@ -27,6 +27,9 @@
                         <a class="nav-link" href="#variety">Varieties</a>
                       </li>
                       <li class="nav-item">
+                        <a class="nav-link" href="#order">Order</a>
+                      </li>
+                      <li class="nav-item">
                         <a class="nav-link"href="#contact">Contact us</a>
                       </li>
                     </ul>
@@ -37,7 +40,7 @@
                    <div class="col-md-12 mb-4 text-center">
                        <h1 class="h1-reponsive blue-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 pulse"> <strong> <span> Lusc</span>ious pizarre</strong></h1>
                        <h5 class="text-uppercase mb-4 gold-text floater"><strong>Best Pizza Shop in Town!</strong></h5>
-                       <a class="btn btn-gold button floater" href="#make-order">Order Now!</a>
+                       <a class="btn btn-gold button floater" href="#order">Order Now!</a>
                    </div>
                </div> 
             </div>
@@ -127,12 +130,12 @@
             </div>   
         </div>
     </div>
-    <div class="order-us" id="make-order" style="background-image: url(images/21-pizza.gif);">
+    <div class="order-us" id="order" style="background-image: url(images/21-pizza.gif);">
         <div class="order-overlay">
             <div class=" text-center" id="Order-now"> 
               <h2>Order Here</h2>
             </div>
-            <h2 class="text-center">Order your pizza here and we will deliver it to you at your door step!</h2>
+            <h2 class="text-center">Order your pizza here and we will deliver it to you at your door step! <br> In less than an Hour</h2>
             <div class="row">
                 <div class="col-sm-5">
                     <form action="">
@@ -173,6 +176,14 @@
                                   <label class="custom-control-label" for="Pineapples">Pineapples</label>
                                 </div>
                                 <div class="custom-control custom-checkbox custom-control-inline">
+                                    <input type="checkbox" class="custom-control-input" id="Olives" value="Olives" name="toppings">
+                                    <label class="custom-control-label" for="Olives">Olives</label>
+                                  </div>
+                                  <div class="custom-control custom-checkbox custom-control-inline">
+                                    <input type="checkbox" class="custom-control-input" id="Cheese" value="Cheese" name="toppings">
+                                    <label class="custom-control-label" for="Cheese">Cheese</label>
+                                  </div>
+                                <div class="custom-control custom-checkbox custom-control-inline">
                                   <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
                                   <label class="custom-control-label" for="Sausage">Sausage</label>
                                 </div>
@@ -191,24 +202,24 @@
                         <h2>Your Order:</h2>
                         <div id="your-orders">
                             <table class="table table-sm  pizzatable">
-                              <thead style="color:chartreuse;">
-                                <tr>
-                                  <th scope="col">Name</th>
-                                  <th scope="col">Size</th>
-                                  <th scope="col">Crust</th>
-                                  <th scope="col">Topping</th>
-                                  <th scope="col">Total</th>
-                                </tr>
-                              </thead>
-                              <tbody id="ordersmade" style="color: fuchsia;">
-                                <tr>
-                                  <td id="pizzaname"></td>
-                                  <td id="pizzasize"></td>
-                                  <td id="pizzacrust"></td>
-                                  <td id="pizzatopping"></td>
-                                  <td id="totals"></td>
-                                </tr>                  
-                              </tbody>
+                                <thead style="color:chartreuse;">
+                                    <tr>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Size</th>
+                                        <th scope="col">Crust</th>
+                                        <th scope="col">Topping</th>
+                                        <th scope="col">Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="ordersmade" style="color: fuchsia;">
+                                    <tr>
+                                        <td id="pizzaname"></td>
+                                        <td id="pizzasize"></td>
+                                        <td id="pizzacrust"></td>
+                                        <td id="pizzatopping"></td>
+                                        <td id="totals"></td>
+                                    </tr>                  
+                                </tbody>
                             </table>
                             <p id="pizzatotal"></p>
                             <p id="totalbill"></p> 
@@ -219,11 +230,20 @@
                         <button class="btn" id="checkout">Checkout</button>
                         <button class="btn deliver">Home delivery?</button>
                     </div>
+                    <div class="delivery">
+                        <form action="">
+                            <div class="form-group">
+                              <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                              <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
+                              <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
+                              <button class="btn" id="final-order">Place Order</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>         
             </div> 
         </div> 
     </div>   
-                    </form> 
 
 </body>
 </html>
