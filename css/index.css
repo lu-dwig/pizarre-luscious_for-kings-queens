@@ -124,4 +124,18 @@ td,th{
   color: white;
   font-size: 30px;
 }
+.contact-us{
+  color: #ffa500;
+}
+.contact-details{
+  display: flex;
+  flex-direction: row;
+  background-color: crimson;
+}
+footer{
+  display:block;
+  color: crimson;
+  padding: 10px;
+  background-color: rgb(5, 5, 14);
+}
 
