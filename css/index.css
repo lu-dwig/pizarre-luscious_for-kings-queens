@@ -149,7 +149,7 @@ footer{
 body {
   background-color: yellowgreen;
 }
-.column {
+body {
   width: 220px;
   float: left;
   padding: 15px;
