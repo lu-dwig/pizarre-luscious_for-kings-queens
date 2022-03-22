@@ -44,6 +44,7 @@ $(document).ready(function(){
   
   //new order object from the constructor
   let newOrder = new getOrder( pname, pnameValue,crustValue,sum)//arguments are the users input
-    alert(newOrder.totalBill());  
+    alert(newOrder.totalBill()); layout
+      
   });
 })

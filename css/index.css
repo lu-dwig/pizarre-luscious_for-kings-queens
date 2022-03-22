@@ -113,11 +113,11 @@ span{
   padding-left: auto;
   padding-right: auto;
 }
-.delivery{
-  display: none;
-  padding-left: 10%;
-  padding-right: 10%;
-}
+/* .delivery{ */
+  /* display: none; */
+  /* padding-left: 10%; */
+  /* padding-right: 10%; */
+/* } */
 td,th{
   font-size: 20px;
   color: white;
