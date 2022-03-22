@@ -109,7 +109,7 @@ span{
   padding-left: 6%;
 }
 .pin-order{
-  display: none;
+  /* display: none; */
   padding-left: auto;
   padding-right: auto;
 }
